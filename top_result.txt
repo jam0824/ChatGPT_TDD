@@ -1,0 +1,31 @@
+[root@228b4f451ff1 /]# top -b -d 10 -n 3
+top - 13:52:54 up 6 min,  0 users,  load average: 0.01, 0.07, 0.03
+Tasks:   2 total,   1 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  16.2 us,  20.3 sy,  5.0 ni,63.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 40979980 total, 37696840 free,  1050480 used,  2232660 buff/cache
+KiB Swap: 10485760 total, 10485760 free,        0 used. 39463640 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+    1 root      20   0   11844   3052   2648 S   0.0  0.0   0:00.00 bash
+   17 root      20   0   56068   3748   3304 R   0.0  0.0   0:00.00 top
+
+top - 13:53:04 up 6 min,  0 users,  load average: 0.01, 0.07, 0.03
+Tasks:   2 total,   1 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  17.3 us,  19.2 sy,  0.0 ni,63.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 40979980 total, 37697188 free,  1050124 used,  2232668 buff/cache
+KiB Swap: 10485760 total, 10485760 free,        0 used. 39463988 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+    1 root      20   0   11844   3052   2648 S   0.0  0.0   0:00.00 bash
+   17 root      20   0   56072   3764   3304 R   0.0  0.0   0:00.00 top
+
+top - 13:53:14 up 6 min,  0 users,  load average: 0.01, 0.06, 0.03
+Tasks:   2 total,   1 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  18.5 us,  18.3 sy,  0.0 ni,63.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 40979980 total, 37697948 free,  1049356 used,  2232676 buff/cache
+KiB Swap: 10485760 total, 10485760 free,        0 used. 39464756 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+    1 root      20   0   11844   3052   2648 S   0.0  0.0   0:00.00 bash
+   17 root      20   0   56072   3764   3304 R   0.0  0.0   0:00.00 top
+[root@228b4f451ff1 /]#
